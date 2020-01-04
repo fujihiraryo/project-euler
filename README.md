@@ -1,3 +1,3 @@
 # Project Euler
 
-https://projecteuler.net/progress
+https://projecteuler.net

@@ -47,7 +47,7 @@ def extgcd(a, b):
     while b:
         x0, y0, x1, y1 = x1, y1, x0 - x1 * a//b, y0 - y1 * a//b
         a, b = b, a % b
-    return x0, y0
+    return x0, y0, a
 
 
-print(extgcd(3, 5))
+print(extgcd(12, 18))
